@@ -1,7 +1,8 @@
-* This is a vimeo or youtube video downloader. This will take a given video url and upload said video into an S3 bucket of your choice. It will also add meta-data to the entity in S3.
+# Video Uploader
+This is a vimeo or youtube video downloader. This will take a given video url and upload said video into an S3 bucket of your choice. It will also add meta-data to the entity in S3.
 
-** Variables
-- videoUrl: 
+# Variables
+- videoUrl: Url of the youtube or vimeo video
 - bucketName: Name of the bucket to use
 - bucketPath: Path inside the bucket to get to
 - fileName: What you want to name the file
